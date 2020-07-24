@@ -1,0 +1,60 @@
+%导言区
+\documentclass[14pt]{article}   %14pt控制全局文字大小越大字体越小  
+
+\usepackage{ctex}
+
+\newcommand{\myfont}{\textit{\textbf{\textsf{Fancy Text}}}}
+
+%正文区（文稿区）
+\begin{document}
+    %字体族设置(罗马字体、无衬线字体、打字机字体)
+    \textrm{罗马字体Roman Family}   
+    
+    \textsf{无衬线字体Sans Serif Family}  
+    
+    \texttt{打字机字体Typewriter Family}
+    
+    \rmfamily Roman Family罗马字体 
+    
+    {\sffamily Sans Serif Family无衬线字体} 
+    
+    {\ttfamily Typewriter Family打字机字体}
+
+    \sffamily 所谓智能家居系统就是基于物联网技术，通过传感器，集成电路采集办公室内基础设备的信号，与核心开发板主控平台相连接，通过手机实现对家居环境和基础设备的监测与控制。近几年来，随着国内外市场上基于物联网技术的智能化楼宇的不断升温，智能化家居已经逐步渗透到人们的生活以及工作方式中。基于无线通信技术和嵌入式技术实现对家居内环境的监测以及设备的管理。
+    
+    {\ttfamily 伴随着物联网技术的快速发展，人们的个性化需求不断增加，而国家有关政策推动物联网生活的形成，但却并为走进大众的生活中。双向无线传输技术是无线系统中最广泛的应用之一，损耗低、数据速率低、成本低是其最明显的三大优势，因而在很多领域如智能化家居设备、环境监测系统、交通运输管理、预防灾难灾害、农业等领域都在广泛应用着。本文在面对室内环境的多变性时，为了达到高效准确的监测需求，也是利用了双向无线传输技术。}
+
+    %字体系列设置 (粗细、宽度)
+    \textmd{Medium Series} \textbf{粗体 Boldface Series}
+
+    {\mdseries Medium Series} {\bfseries Boldface Series 粗体}
+
+    %字体形状(直立、斜体、伪斜体、小型大写)
+    \textup{直立Upright Shape}~~~~\textit{斜体 Italic Shape}~~~~
+    \textsl{伪斜体Slanted Shape}~~~~\textsc{小型大写Small Caps Shape}
+
+    {\upshape Upright Shape 直立}\quad\quad{\itshape Italic Shape 斜体}\quad\quad{\slshape Slanted Shape 伪斜体}\quad\quad{\scshape Small Caps Shape 小型大写}
+
+    %中文字体(必须使用ctex宏包)
+    {\songti 宋体}\quad{\heiti 黑体}\quad{\fangsong 仿宋}\quad{\kaishu 楷书}
+
+    中文字体的\textbf{粗体}与\textit{斜体}
+
+    %字体大小(由小到大) CMD~: texdoc ctex（第5节排版格式设定）
+    {\tiny          Hello}\\%
+    {\scriptsize    Hello}\\
+    {\footnotesize  Hello}\\
+    {\small         Hello}\\
+    {\normalsize    Hello}\\
+    {\large         Hello}\\
+    {\Large         Hello}\\
+    {\LARGE         Hello}\\
+    {\huge          Hello}\\
+    {\Huge          Hello}\\
+
+    %中文字号设置
+    \zihao{-0} 你好呀！\\
+    \zihao{5} 你好！\\
+    \myfont
+
+\end{document}
